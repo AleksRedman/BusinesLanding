@@ -1,0 +1,27 @@
+{
+  "name": "busines_landing",
+  "version": "1.0.0",
+  "description": "test-work",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksRedman/BusinesLanding.git"
+  },
+  "keywords": [],
+  "author": "Aleks Redman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksRedman/BusinesLanding/issues"
+  },
+  "homepage": "https://github.com/AleksRedman/BusinesLanding#readme"
+}
