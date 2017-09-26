@@ -1,8 +1,9 @@
 .header {
-    
+
     
     &__top{
         background-color: #f0f2f4;
+        border-bottom: 1px solid $color-border-top;
     }
     
     &__bottom{

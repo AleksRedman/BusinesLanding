@@ -4,10 +4,15 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    align-content: stretch;
+    align-content: stretch; 
+    padding-top: 37px;
+    padding-bottom: 37px;
+    
     
     &__logo{
-       
+        align-self: center;
+        height: 51px;
+        width: 242px;
         
         .logo{
             
@@ -27,19 +32,51 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
-        align-content: flex-start;
+        align-content: stretch;
     }
     
-    &__item{
-        
-    }
-    
-    &__item a{
+    &__link{
         text-decoration: none;
         color: $color-link;
+        padding-right: 18px;
+        font-size: 15px;
+        font-weight: bold;
+        transition: 0.3s;
+        align-self: center;
+    }
+    
+    &__link::after{
+        content: "";
+        display: inline-block;
+        border-radius: 50%;
+        width: 5px;
+        height: 5px;
+        background-color: $color-link;
+        vertical-align: middle;
+        margin-left: 15px;
+        margin-bottom: 2px;
+    }
+    
+    &__link:last-child::after{
+        display: none;
+    }
+    
+    &__link:hover{
+        color: $color-link-hover;
     }
     
     &__button{
         background-color: #de2b24;
+        align-self: center;
+        padding: 10px 22px;
+        transition: 0.3s;
     }
+    
+    &__button:hover{
+        background-color: darken(#de2b24,10%)
+    }
+}
+
+.active{
+    color: $color-link-hover;
 }
