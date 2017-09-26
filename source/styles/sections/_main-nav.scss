@@ -1,0 +1,45 @@
+.main-nav{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: stretch;
+    
+    &__logo{
+       
+        
+        .logo{
+            
+        }
+    }
+    
+    &__wrap{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: flex-start;
+    }
+    
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: flex-start;
+    }
+    
+    &__item{
+        
+    }
+    
+    &__item a{
+        text-decoration: none;
+        color: $color-link;
+    }
+    
+    &__button{
+        background-color: #de2b24;
+    }
+}
