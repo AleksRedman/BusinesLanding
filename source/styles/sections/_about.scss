@@ -1,0 +1,82 @@
+.about{
+    padding-top: 98px;
+    padding-bottom: 115px;
+    
+    &__wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        color: #424242;
+    }
+    
+    &__header{
+        text-align: center;
+        margin-bottom: 50px;
+        
+        &::after{
+            display: block;
+            content: "";
+            width: 47px;
+            height: 5px;
+            background-color: #424242;
+            margin: 0 auto;
+        }
+    }
+    
+    &__title{
+        padding: 0;
+        margin: 0;
+    }
+    
+    &__descr{
+        padding: 0;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    
+    &__content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    &__item{
+        text-align: center;
+        flex-basis: 280px;
+        padding-top: 100px;
+    }
+    
+    &__item--like{
+        background: url(../../images/icons/like.png) no-repeat;
+        background-position: top;
+    }
+    
+     &__item--book{
+        background: url(../../images/icons/book.png) no-repeat;
+        background-position: top;
+    }
+    
+     &__item--massage{
+        background: url(../../images/icons/message.png) no-repeat;
+        background-position: top;
+    }
+    
+    &__item-title{
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 13px;
+    }
+    
+    &__item-descr{
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        line-height: 1.5;
+    }
+    
+}

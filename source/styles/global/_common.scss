@@ -1,6 +1,7 @@
 .container{
+    min-width: 320px;
     max-width: 1024px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .btn{
@@ -12,3 +13,7 @@
     text-transform: capitalize;
 }
 
+.section-headers{
+    font-family: $ff-main-bold;
+    font-size: 2rem;
+}
