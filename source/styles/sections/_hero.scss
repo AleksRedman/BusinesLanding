@@ -1,0 +1,41 @@
+.hero{
+    background:#68776f url(../../images/hero-bg.jpg) center/cover no-repeat;
+    min-height: 590px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    &__wrap{
+        max-width: 683px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    &__slogan{
+        
+    }
+    
+    &__title{
+        font-size: 48px;
+        font-weight: bold;
+    }
+    
+    &__descr{
+        font-family: $ff-main-light;
+        font-size: 30px;
+    }
+    
+    &__button{
+        text-transform: uppercase;
+        background-color: #f8cd53;
+        transition: 0.3s;
+        font-size: 23px;
+        padding: 15px 40px;
+    }
+    
+     &__button:hover{
+        background-color: darken(#f8cd53,20%);
+    }
+}
