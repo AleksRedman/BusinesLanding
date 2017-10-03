@@ -1,0 +1,123 @@
+.approch{
+    background-color: #f3f3f3;
+    color: $color-font-approch;
+    padding-top: 90px;
+    padding-bottom: 130px;
+    
+    
+    &__wrap{
+        
+    }
+    
+    &__header{
+        text-align: center;
+        margin-bottom: 45px;
+        
+        
+        &::after{
+            display: block;
+            content: "";
+            width: 47px;
+            height: 5px;
+            background-color: #424242;
+            margin: 0 auto;
+        }
+    }
+    
+    &__header-title{
+        margin: 0;
+        padding: 0;
+        font-family: $ff-main-bold;
+        font-style: 36px;
+    }
+    
+    &__header-descr{
+        margin: 0;
+        padding: 0;
+        font-style: 20px;
+    }
+    
+    &__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    
+    &__step{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-content: center;
+        flex-wrap: nowrap;
+        background-color: #fff;
+        margin-bottom: 40px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        position: relative;
+        
+        &:nth-child(2n){
+            flex-direction: row-reverse;
+            text-align: right;
+        }
+        
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    
+    &__photo{
+        width: 338px;
+        height: 235px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    &__number-box{
+        background-color: #de2b24;
+        border-radius: 5px;
+        position: absolute;
+        width: 105px;
+        height: 105px;
+        text-align: center;
+        vertical-align: middle;
+        color: #fff;
+        margin-top: -52px;
+        top: (50%);
+        left: 286px;
+        }
+    
+    &__step:nth-child(2n) .approch__number-box{
+        left: auto;
+        right: 286px;
+    }
+    
+    &__number{
+        font-size: 60px;
+        font-family: $ff-steps;
+        display: block;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+    }
+    
+    &__text{
+        max-width: 100%;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    
+    &__title{
+        font-family: $ff-main-bold;
+        font-size: 15px;
+    }
+    
+    &__descr{
+        font-size: 14px;
+    }
+    
+}

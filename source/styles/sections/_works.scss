@@ -1,0 +1,79 @@
+.works{
+    background-color: #de2b24;
+    color: #fff;
+    padding-top: 90px;
+    padding-bottom: 130px;
+    
+    &__wrap{
+        
+    }
+    
+    &__header{
+        text-align: center;
+        margin-bottom: 45px;
+        
+        
+        &::after{
+            display: block;
+            content: "";
+            width: 47px;
+            height: 5px;
+            background-color: #fff;
+            margin: 0 auto;
+        }
+    }
+    
+    &__header-title{
+        margin: 0;
+        padding: 0;
+        font-family: $ff-main-bold;
+        font-style: 36px;
+    }
+    
+    &__header-descr{
+        margin: 0;
+        padding: 0;
+        font-style: 20px;
+    }
+    
+    &__content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-basis: 255px;
+    }
+    
+    &__project{
+        width: 255px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 506px;
+        
+        &:nth-child(2n){
+            flex-direction: column-reverse;
+        }
+        
+    }
+    
+    &__project-name{
+        background-color: #f35e59;
+        padding: 35px 20px;
+        padding-top: 120px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        font-family: $ff-main;
+        font-size: 15px;
+    }
+    
+    &__project-title{
+        margin: auto 0;
+        padding: 0;
+        font-family: $ff-main-bold;
+        font-size: 22px;
+    }
+}

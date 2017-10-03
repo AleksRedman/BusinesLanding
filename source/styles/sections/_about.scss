@@ -26,6 +26,8 @@
     }
     
     &__title{
+        font-family: $ff-main-bold;
+        font-style: 36px;
         padding: 0;
         margin: 0;
     }
@@ -34,6 +36,7 @@
         padding: 0;
         margin: 0;
         margin-bottom: 15px;
+        font-style: 20px;
     }
     
     &__content{
