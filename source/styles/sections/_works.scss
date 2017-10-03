@@ -60,7 +60,6 @@
     }
     
     &__project-name{
-        background-color: #f35e59;
         padding: 35px 20px;
         padding-top: 120px;
         height: 100%;
@@ -68,6 +67,7 @@
         vertical-align: middle;
         font-family: $ff-main;
         font-size: 15px;
+        background: #f35e59 url(../../images/icons/work-item.png) no-repeat  50% 70px;
     }
     
     &__project-title{
