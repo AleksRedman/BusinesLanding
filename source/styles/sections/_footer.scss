@@ -1,0 +1,54 @@
+.footer{
+    
+    background-color: #2a2a2a;
+    padding-top: 87px;
+    color: #a3a3a3;
+    
+    &__wrap{
+        padding-bottom: 84px;
+        text-align: center;
+        
+    }
+    
+    &__title{
+        font-family: $ff-main-bold;
+        font-size: 29px;
+        color: #fff;
+    }
+    
+    &__subscr{
+        
+    }
+    
+    &__form{
+        
+    }
+    
+    &__mail-area{
+        
+    }
+    
+    &__btn{
+
+    }
+    
+    &__bottom{
+        background-color: #515151;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    &__bottom-wrap{
+        padding: 19px 10px;
+        text-align: center;
+    }
+    
+    &__copyrights{
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        font-family: $ff-main;
+        line-height: 1.3;
+    }
+    
+}
