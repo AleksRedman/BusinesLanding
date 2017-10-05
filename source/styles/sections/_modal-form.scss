@@ -5,6 +5,7 @@
     padding-bottom: 70px;
     margin: 0 auto;
     max-width: 790px;
+    min-width: 300px;
     border-radius: 5px;
     position: relative;
     color: #828282;
@@ -73,6 +74,12 @@
                 background: $color-link-hover;
             }
         }
+        
+        
+         @media (max-width: 840px){
+            top: 0;
+             right: 0;
+        }
     }
     
     &__descr{
@@ -91,7 +98,7 @@
     }
     
     &__textfield{
-        width: 500px;
+        max-width: 500px;
         padding: 18px 24px;
         border-radius: 5px;
         margin-bottom: 10px;

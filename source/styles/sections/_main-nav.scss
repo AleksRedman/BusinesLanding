@@ -14,9 +14,8 @@
         height: 51px;
         width: 242px;
         
-        .logo{
-            height: 51px;
-            width: 242px;
+        @media (max-width: 1080px){
+            margin-left: 20px;
         }
     }
     
@@ -71,6 +70,10 @@
         align-self: center;
         padding: 10px 22px;
         transition: 0.3s;
+        
+        @media (max-width: 1080px){
+            margin-right: 20px;
+        }
     }
     
     &__button:hover{

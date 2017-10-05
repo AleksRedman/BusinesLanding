@@ -41,6 +41,10 @@
         margin-left: 0;
         padding-left: 7px;
     }
+    
+    @media (max-width: 1080px){
+            justify-content: center;
+        }
 }
 
 .fa-facebook{

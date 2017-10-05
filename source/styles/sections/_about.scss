@@ -44,13 +44,23 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        align-content: center;
         flex-wrap: wrap;
+        
+        
+        @media (max-width: 768px){
+            
+        }
     }
     
     &__item{
         text-align: center;
         flex-basis: 280px;
         padding-top: 100px;
+        
+         @media (max-width: 768px){
+            flex-grow: 1;
+        }
     }
     
     &__item--like{
