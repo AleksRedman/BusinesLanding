@@ -1,7 +1,7 @@
 section.footer
     .container
         .footer__wrap
-            .footer__title Get in touch
+            h2.footer__title Get in touch
             .socials
                 a.socials__link
                     i.fa.fa-facebook(aria-hidden="true")
@@ -11,8 +11,8 @@ section.footer
                     i.fa.fa-google-plus(aria-hidden="true")
                 a.socials__link
                     i.fa.fa-linkedin(aria-hidden="true")
-            .footer__subscr Subscribe to our newsletter to stay update with what is new
-            form.footer__form
+            p.footer__subscr Subscribe to our newsletter to stay update with what is new
+            form(method="post" action="#").footer__form
                 input.footer__mail-area(type="email" placeholder="Email Address" multiple)
                 button.footer__btn(type="submit") Subscribe
     .footer__bottom
