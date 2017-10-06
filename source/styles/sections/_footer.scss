@@ -8,6 +8,10 @@
         padding-bottom: 84px;
         text-align: center;
         
+        
+        @media (max-width: 476px){
+        padding-bottom: 30px;
+    }
     }
     
     &__title{
@@ -44,6 +48,10 @@
         
         @include placeholder {
             color: #979797;
+            
+            @media (max-width: 476px){
+               text-align: center;
+            }
         }
     }
     

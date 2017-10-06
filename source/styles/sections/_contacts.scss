@@ -6,6 +6,11 @@
     align-content: stretch;
     align-items: center;
     
+    @media (max-width: 476px){
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    
     
     a{
         text-decoration: none;  
@@ -23,6 +28,11 @@
     
     &__mobile{
         border-right: 1px solid $color-border-top;
+        
+        @media (max-width: 476px){
+            margin-top: 10px;
+            border: none;
+        }
     }
     
     &__mail{

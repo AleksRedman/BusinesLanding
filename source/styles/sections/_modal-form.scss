@@ -103,6 +103,13 @@
         border-radius: 5px;
         margin-bottom: 10px;
         border: 1px solid #d8d8d8;
+        
+        @include placeholder {
+            
+            @media (max-width: 476px){
+               text-align: center;
+            }
+        }
     }
     
     &__button{

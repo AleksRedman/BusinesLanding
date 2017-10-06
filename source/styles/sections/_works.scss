@@ -4,6 +4,11 @@
     padding-top: 90px;
     padding-bottom: 130px;
     
+    @media (max-width: 1024px){
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    
     &__wrap{
         
     }
@@ -27,14 +32,22 @@
         margin: 0;
         padding: 0;
         font-family: $ff-main-bold;
-        font-style: 36px;
+        font-size: 36px;
+        
+        @media (max-width: 510px){
+            font-size: 28px;
+        }
     }
     
     &__header-descr{
         margin: 0;
         padding: 0;
-        font-style: 20px;
+        font-size: 20px;
         margin-bottom: 15px;
+        
+        @media (max-width: 510px){
+            font-size: 15px;
+        }
     }
     
     &__content{
@@ -60,6 +73,10 @@
         
         &:nth-child(2n){
             flex-direction: column-reverse;
+            
+            @media (max-width: 510px){
+                flex-direction: column;
+            }
         }
         
     }
