@@ -15,6 +15,7 @@ const concat        = require('gulp-concat');
 
 /* -------- Server  -------- */
 gulp.task('server', function() {
+  'use strict';
   browserSync.init({
     server: {
       port: 9000,
